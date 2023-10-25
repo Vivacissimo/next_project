@@ -3,6 +3,11 @@ import Head from "next/head";
 import Image from "next/image";
 import vivaImage from "public/Images/Viva.png";
 import ocaenImage from "public/Images/Ocean.png";
+import ocaenImage_2 from "public/Images/Ocean_2.png";
+import webtoonImage from "public/Images/Unreal.PNG";
+import previzImage from "public/Images/0223_2.png"
+import roadImage from "public/Images/Road.png"
+
 
 
 export default  function Projects() {
@@ -14,7 +19,7 @@ export default  function Projects() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>프로젝트</h1>
+      {/* <h1>프로젝트</h1> */}
 
       <section class="text-gray-600 body-font">
 
@@ -51,10 +56,10 @@ export default  function Projects() {
 
             <div class="lg:w-1/3 sm:w-1/2 p-4">
               <div class="flex relative">
-                <Image alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src=""/ >
+                <Image alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={webtoonImage}/ >
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Webtoon</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Webtoob BG / Unreal</h1>
                   <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                 </div>
               </div>
@@ -62,10 +67,10 @@ export default  function Projects() {
 
             <div class="lg:w-1/3 sm:w-1/2 p-4">
               <div class="flex relative">
-                <Image alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="" />
+                <Image alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={previzImage} />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Previz</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Previz BG / Unreal</h1>
                   <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                 </div>
               </div>
@@ -73,10 +78,10 @@ export default  function Projects() {
 
             <div class="lg:w-1/3 sm:w-1/2 p-4">
               <div class="flex relative">
-                <Image alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="" />
+                <Image alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={roadImage} />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Level Design</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Road</h1>
                   <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                 </div>
               </div>
@@ -84,10 +89,10 @@ export default  function Projects() {
 
             <div class="lg:w-1/3 sm:w-1/2 p-4">
               <div class="flex relative">
-                <Image alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="" />
+                <Image alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={ocaenImage_2} />
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Ocean</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Realistic Ocean</h1>
                   <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                 </div>
               </div>
